@@ -1,0 +1,48 @@
+body {
+}
+h2{
+	font-family:arial;
+	font-size:1em;
+}
+p{
+	font-family:arial;
+}
+.sample1{
+	background: red;
+	height: 4em; 
+}
+.sample2{
+	height: 4em;
+	background: linear-gradient(45deg, red, blue, green);
+}
+.sample3{
+	height: 4em;
+	background: linear-gradient(red 80%, blue 90%);
+}
+.sample4{
+	height: 4em;
+	background:repeating-linear-gradient(red,purple 100px);
+}
+.sample5{vh;*/
+
+	height: 4em;
+	background: linear-gradient(45deg, rgb(76,0,255), transparent);
+}
+.sample6{
+	height: 4em;
+	background: linear-gradient(45deg, rgb(76,0,255),transparent),
+	repeating-linear-gradient(45deg,rgb(183,0,255) 0%, rgb(183,0,255) 5%);
+}
+.sample7{
+	background:linear-gradient(45deg, rgb(76,0,255), transparent),
+	repeating-linear-gradient(-45deg,rgb(183,0,255) 0%, rgb(183,0,255) 5%, transparent 5%, transparent 10%);
+	height: 4em;
+	/* height:100vh; */
+}
+.sample8{
+	height:4em;
+	/* height:100vh*/
+	background:linear-gradient(45deg, rgb(76,0,255), transparent),
+	repeating-linear-gradient(45deg,rgb(183,0,255)0%, rgb(183,0,255) 5%,transparent 5%, transparent 10%),
+	rgb(216,118,255) repeating-linear-gradient(-45deg, rgba(183,0,255,0.5) 0%, rgba(183,0,255,0.5)5%,transparent 5%, transparent 10%);
+}
